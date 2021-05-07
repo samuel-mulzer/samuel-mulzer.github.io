@@ -1,4 +1,5 @@
 .DS_Store
 /equation-solver
-/widget
 /login
+/phpmyadmin
+/.well-known
