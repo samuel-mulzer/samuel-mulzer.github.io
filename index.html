@@ -3,7 +3,7 @@
 
   <head>
       <meta charset="UTF-8">
-      <title>Samuel Mulzer</title>
+      <title>Samuel Mulzer - homepage</title>
 
       <meta name="description" content="Hi, I'm Samuel and I'm a student based in Passau">
       <meta name="author" content="Samuel Mulzer ">
@@ -46,16 +46,15 @@
       <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
       <!-- favicon end -->
 
+      <link rel="stylesheet" href="/style.css">
+      <script src="/script.js" defer></script>
 
       <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" id="theme-stylesheet" href="">
-    <link rel="preload" href="/css/theme/light.css" as="style">
-    <link rel="preload" href="/css/theme/dark.css" as="style">
-    <script src="/js/theme.js"></script>
+      <link rel="preload" href="/css/theme/light.css" as="style">
+      <link rel="preload" href="/css/theme/dark.css" as="style">
+      <link rel="stylesheet" id="theme-stylesheet" href="">
+      <script id="theme-script" src="/js/theme.js"></script>
 
-
-      <link rel="stylesheet" href="/style.css">
-      <script src="/script.js"></script>
 
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-98X2EEF2NQ"></script>
@@ -71,12 +70,20 @@
         *{
           font-family: sans-serif;
         }
+        a{
+          color: var(--accent-color-2);
+        }
+        a#error{
+          display: none;
+        }
       </style>
   </head>
   
   <body>
     <h1>This page is currently under construction.</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam odio perspiciatis quos deleniti aperiam voluptas provident dignissimos amet corrupti autem animi a non iste itaque, vitae, veritatis inventore suscipit doloribus mollitia aspernatur. Ullam officia, ea qui officiis laboriosam aut nesciunt iste dolores velit. Temporibus similique a architecto optio veritatis magni, doloribus dolor molestiae reprehenderit, sed laudantium impedit sequi voluptatibus, corporis explicabo accusantium. Sapiente debitis vitae error maiores odio laudantium tenetur non suscipit nemo, dolores magnam distinctio consequuntur iusto commodi, placeat, explicabo repudiandae dicta vero. Ipsa magnam eius, delectus libero ducimus excepturi voluptate ratione iure atque ut amet labore commodi, exercitationem ad voluptatem quasi vero? Necessitatibus nam suscipit dicta dolore vitae aliquam voluptas quis sed! Veniam assumenda fuga quisquam esse autem quos ex praesentium iste, vitae sit, obcaecati eos accusamus nesciunt incidunt accusantium. Illo incidunt officia quis dicta ipsam. Corrupti cum suscipit fuga repellat odio iusto unde dolor eos possimus modi, blanditiis dignissimos expedita laboriosam asperiores vitae eaque cumque ab maiores molestias cupiditate nulla. Totam aut consectetur ducimus? Quam mollitia sunt pariatur ad nobis, quas repudiandae magni dolore. Ipsa quia nihil quaerat quasi debitis provident, blanditiis enim quam eum. Labore deserunt, ad tenetur odio dicta asperiores numquam doloremque consequuntur neque. Facilis placeat sint quo repellendus natus perspiciatis dolore error, voluptatum delectus laborum iste amet consequatur rem perferendis ipsam quaerat iure provident pariatur beatae magnam atque earum in ea! Similique voluptates quaerat molestiae doloribus ab fuga mollitia voluptas ratione vitae natus obcaecati, et quam amet cumque dolor ullam esse, consectetur nemo itaque?</p>
+    <br>
+    <p>By the way, here's the link to my <a href="/equation-solver/">equation solver</a></p>
+    <a href="/hi.html" id="error">hi</a>
   </body>
 
 </html>
